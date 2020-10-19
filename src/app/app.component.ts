@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'binding-example';
+
+  changeTitle(): void {
+    this.title = "I changed it with a button click!";
+  }
 }
